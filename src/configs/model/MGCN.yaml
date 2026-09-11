@@ -1,0 +1,53 @@
+embedding_size: 64
+n_ui_layers: 3
+n_layers: 1
+
+learning_rate_scheduler: [0.96, 50]
+lambda_coeff: 0.9
+reg_weight: 1e-04
+
+learning_rate: 0.001
+
+# sports
+knn_k: 10
+cl_loss: [0.01] # [0.01] # [0.001,0.01,0.1]
+na_loss: 0.005
+align_loss:  0.005 # 0.005
+Item_layers: 1
+User_layers: 1
+hyper_parameters: ["cl_loss"]
+
+
+#knn_k: 10
+#cl_loss: [0.1] # [0.01] # [0.001,0.01,0.1]
+#na_loss: 0.005
+#align_loss: 0.005
+#Item_layers: 1
+#User_layers: 1
+#hyper_parameters: ["cl_loss"]
+
+# tiktok
+#knn_k: 10  # 10
+#cl_loss: [0.0001] # [0.001]  # [0，0.005,0.001,0.01,0.05,0.1] # 0.001
+#na_loss: 0.001  # [0，0.005,0.001,0.01,0.05,0.1] # 0.01
+#align_loss: 0.01 # [0，0.005,0.001,0.01,0.05,0.1] 0.1  0.0001
+#Item_layers: 3
+#User_layers: 3
+#hyper_parameters: ["cl_loss"]
+
+#knn_k: 10  # 10
+#cl_loss: [0.001] # [0.001]  # [0，0.005,0.001,0.01,0.05,0.1] # 0.001
+#na_loss: 0.01  # [0，0.005,0.001,0.01,0.05,0.1] # 0.01
+#align_loss: 0.1 # [0，0.005,0.001,0.01,0.05,0.1] 0.1  0.0001
+#Item_layers: 3
+#User_layers: 3
+#hyper_parameters: ["cl_loss"]
+
+# clothing
+#knn_k: 10
+#cl_loss: [0.01] # [0.01] # [0.001,0.01,0.1]
+#na_loss: 0.01
+#align_loss: 0.1 # 0.001 # 0.01 #0.1  # 0.05
+#Item_layers: 1
+#User_layers: 1
+#hyper_parameters: ["cl_loss"]
