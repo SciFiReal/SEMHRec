@@ -15,4 +15,4 @@
 
 
 ## 致谢
-该代码的结构基于https://github.com/enoche/MMRec。 感谢他们的工作。
+该代码的结构基于https://github.com/enoche/MMRec。感谢他们的工作。
